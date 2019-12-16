@@ -9,26 +9,55 @@
 
 }
 
-h1 h3{
+#demo_reel_video {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: auto;
+}
 
-    color: grey;
+.breakdown {
+  text-align: center;
+
+}
+
+
+
+.reel, .contact{
+    background-color: #808080;
 }
 
 .content{
-	padding-top: 20%;
-	text-align: center;
+  padding-top: 20%;
+  text-align: center;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
                  0px 8px 13px rgba(0,0,0,0.1),
                  0px 18px 23px rgba(0,0,0,0.1);
     color: white;
 }
 
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-
 .fa-imdb, .fa-linkedin-square{
     font-size:48px;
     padding: 1rem;
+}
+
+h1, h3, a{
+
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+  font-size 5em: 
+  font-weight: 700; 
+}
+
+
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
