@@ -23,8 +23,6 @@
 
 }
 
-
-
 .reel, .contact{
     background-color: #808080;
 }
@@ -43,18 +41,14 @@
     padding: 1rem;
 }
 
-h1, h3, a{
-
+h1, h3, h4, a{
     color: white;
-    margin: auto;
+    margin: center;
     text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
 }
-
-h1 {
-  font-size 5em: 
-  font-weight: 700; 
-}
-
 
 
 li {
