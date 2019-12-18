@@ -23,7 +23,7 @@
 
 }
 
-.reel, .contact, .about-page{
+.reel, .contact, .about-me{
     background-color: #808080;
 }
 
@@ -37,12 +37,12 @@
 }
 
 .about-content {
-    padding-top: 2 rem;
+    padding-top: 5 rem;
     margin-top: 1rem;
 }
 
 .headshot {
-    padding-top: 5rem;
+    padding-top: 20%;
     width: 100%;
 }
 
@@ -70,5 +70,8 @@ li {
 }
 
 img {
-    vertical-align: middle;
+  
+    transform: rotate(90deg);
+    margin-top: 6rem;
+
 }
